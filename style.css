@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  border-radius: 10px;
+}
+.input {
+  position: relative;
+  max-width: 1300px;
+  text-align: center;
+  margin: auto;
+}
+
+.input input {
+  font-size: 18px;
+  margin-top: 50px;
+  width: 80%;
+  height: 50px;
+  padding: 15px 15px;
+  border: 1px solid #bebebe;
+  border-radius: 10px;
+}
+
+.input input:focus {
+  outline: none;
+  background: #d6d6d6;
+}
+
+.input .icon {
+  position: absolute;
+  right: 11%;
+  top: 60px;
+  cursor: pointer;
+  color: #777;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #eee;
+}
+
+.box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+.box img {
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+}
+
+.box .name {
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.box .price {
+  margin-top: 15px;
+}
+
+.box i {
+  position: absolute;
+  font-size: 35px;
+  right: 15%;
+  top: 1%;
+  color: #adadad;
+  cursor: pointer;
+}
+
+.box .chosen {
+  color: red;
+}
+.header {
+  position: relative;
+}
+
+.header .carter {
+  position: absolute;
+  right: 2%;
+  top: 100%;
+  color: #676767;
+  cursor: pointer;
+}
+
+.carter-container.active {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 1%;
+  top: 25%;
+  border: 1px solid #a9a9a9;
+  background: #707070;
+  border-radius: 10px;
+  height: 500px;
+  overflow: scroll;
+}
+
+.carter-box {
+  display: flex;
+  margin: 20px 15px;
+  justify-content: flex-start;
+  padding: 5px;
+  align-items: center;
+  border: 1px solid #5e5e5e;
+  border-radius: 10px;
+}
+
+.carter-box .carter-img {
+  border-radius: 50%;
+  width: 70px;
+  height: 60px;
+}
+
+.carter-box .carter-name,
+.carter-box .carter-price {
+  margin-left: 5px;
+  color: #fff;
+  padding: 5px;
+}
+
+.carter-box .trash {
+  margin-left: 7px;
+  color: #fff;
+  cursor: pointer;
+}
